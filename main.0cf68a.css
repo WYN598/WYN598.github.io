@@ -469,7 +469,7 @@ svg:not(:root) {
 pre {
   overflow: auto;
   white-space: pre;
-  white-space: pre-wrap;
+  /* white-space: pre-wrap; */
   word-wrap: break-word
 }
 
@@ -1086,9 +1086,10 @@ html {
   border-left: 1px solid transparent
 }
 
-::-webkit-scrollbar-track:hover {
-  background-color: rgba(0, 0, 0, .15)
+::-webkit-scrollbar-track:hover{
+  background-color:rgba(255, 255, 255, 0.75)
 }
+
 
 ::-webkit-scrollbar-button:start {
   width: 10px;
@@ -4292,4 +4293,60 @@ a.pswp__share--download:hover {
 .pswp__error-msg a {
   color: #ccc;
   text-decoration: underline
+}
+
+
+
+
+/* 修改主题 */
+
+category-all-page {
+  margin: 30px 40px 30px 40px;
+  position: relative;
+  min-height: 70vh;
+}
+.category-all-page h2 {
+  margin: 20px 0;
+}
+.category-all-page .category-all-title {
+  text-align: center;
+}
+.category-all-page .category-all {
+  margin-top: 20px;
+}
+.category-all-page .category-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.category-all-page .category-list-item-list-item {
+  margin: 10px 15px;
+}
+.category-all-page .category-list-item-list-count {
+  color: $grey;
+}
+.category-all-page .category-list-item-list-count:before {
+  display: inline;
+  content: " (";
+}
+.category-all-page .category-list-item-list-count:after {
+  display: inline;
+  content: ") ";
+}
+.category-all-page .category-list-item {
+  margin: 10px 10px;
+}
+.category-all-page .category-list-count {
+  color: $grey;
+}
+.category-all-page .category-list-count:before {
+  display: inline;
+  content: " (";
+}
+.category-all-page .category-list-count:after {
+  display: inline;
+  content: ") ";
+}
+.category-all-page .category-list-child {
+  padding-left: 10px;
 }
