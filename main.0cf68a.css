@@ -1121,7 +1121,7 @@ html {
 
 .article-entry .highlight,
 .article-entry pre {
-  background: rgb(83, 83, 83);
+  background: rgb(49, 49, 49);
   margin: 10px 0;
   padding: 10px;
   overflow: auto;
@@ -1204,7 +1204,7 @@ html {
 }
 
 .article-entry .highlight .line {
-  color: rgb(175, 175, 175);
+  color: rgb(197, 197, 197);
   min-height: 19px
 }
 
